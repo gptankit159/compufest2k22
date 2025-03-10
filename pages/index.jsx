@@ -11,6 +11,7 @@ const description =
   "Compufest is a National Level Technical Fest organized by the Department of Computer Technology, Yeshwantrao Chavan College of Engg., Nagpur";
 
 export default function Home() {
+
   return (
     <div className="flex flex-col min-h-screen text-gray-400" style={{backgroundColor: "#c9c9c9"}} >
       <Head>
@@ -18,8 +19,8 @@ export default function Home() {
         <title>Compufest 2022</title>
         <meta name="description" content={description} />
         <meta property="og:title" content="Compufest 2022 : ACM CTSC YCCE" />
-        <meta property="og:site_name" content="https://compufest.live" />
-        <meta property="og:url" content="https://compufest.live" />
+        <meta property="og:site_name" content="https://compufest.tech" />
+        <meta property="og:url" content="https://compufest.tech" />
         <meta property="og:type" content="website" />
         <meta property="og:description" content={description} />
         <meta
