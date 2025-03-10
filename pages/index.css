@@ -1,0 +1,82 @@
+html,
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+
+}
+
+::-webkit-scrollbar {
+  background-color: #c9c9c9;
+  /* background-color: #0f172a; */
+  color: #293e66;
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 10px 0 15px #1a2437;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: #181a1b;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #4d6188;
+  border-radius: 3px;
+}
+
+#canvas3d{
+  outline: none;
+  margin: auto;
+  margin-top: 4%;
+}
+#accDetails{
+  width: 700px;
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  background: transparent;
+}
+#container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: transparent;
+}
+
+.spline-watermark {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  width: 32px;
+  height: 32px;
+  z-index: 2;
+  display: none;
+}
+
+
+
+video{
+  width: 50%;
+  margin: auto;
+  outline: none;
+  /* height: 600px; */
+  padding: 5px;
+  margin-top: 34%;
+  pointer-events: none;
+}
+  #bgHeader{
+    background-color: transparent;
+  }
+@media only screen and (max-width: 786px) {
+  #canvas3d{
+    margin-top: 34%;
+  }
+
+  #accDetails{
+    width: fit-content;
+  }
+}
